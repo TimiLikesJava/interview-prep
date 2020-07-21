@@ -24,7 +24,8 @@ class Solution:
             
             row_no = row - i # This is the row difference
             
-            if col_no == 0 or col_no == row_no: # 'col_no == row_no' handles our diagonal case. In a case of [0 , 1] we have the col_no to be 1 and the row_no as well. To visualize this I will use a 4x4 chess board.   Q . . .
+            if col_no == 0 or col_no == row_no: # 'col_no == row_no' handles our diagonal case. In a case of [0 , 1] we have the col_no to be 1 and the row_no as well. To visualize this I will use a 4x4 chess board.   
+            #  Q . . .
             #  . Q . . 
             # As you can see, this is a digonal attack and the queen on the first row is not safe.
                 
